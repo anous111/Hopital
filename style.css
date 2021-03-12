@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+    padding: 0;
+	
+}
+body{
+	height: 4000px;
+}
+.header{
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/large_thumbnail.jpg);
+	background-attachment: scroll;
+	background-size: bottom;
+	
+}
+.navbar{
+	background-color: black;
+}
+.navbar span{
+	display:inline;
+	color:white;
+	position: relative;
+	padding-left: 10px;
+}
+.navbar ul{
+	position: absolute;
+	left: 50%;
+	top: 0%;
+}
+.navbar ul li {
+	display: inline;
+	padding-left: 20px;
+	margin-right: 10px;
+	color: white;
+	width: 100%;
+	height: 50px;
+    
+}
+
+#divheader{
+	clear: both;
+	position: absolute;
+	top: 25%;
+    left: 40%;
+	color: white;
+	
+}
+
+.btn1{
+	background-color: hsl(332deg 84% 24%);
+	width: 100px;
+	height: 30px;
+	margin-right: 20px;
+	color: white;
+
+}
+.btn2{
+	background-color: hsl(160deg 37% 59%);
+	width: 100px;
+	height: 30px;
+	color: white;
+
+}
+.container{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	
+}
+.container div #p1{
+	position: absolute;
+	width: 200px;
+	left: 57%;
+    top: 20%;
+
+}
+.container div #p2{
+	position: absolute;
+	width: 200px;
+	left: 20%;
+    top: 40%;
+
+}
+.card1{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px transparent black;
+	width: 300px;
+}
+.card2{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px transparent black;
+	width: 300px;
+}
+.button{
+	background-color: hsl(219deg 93% 63%);
+    width: 60px;
+    height: 25px;
+    color: white;
+    margin-top: 24px;
+    margin-left: 240px;
+	border-radius: 10px;
+
+}
+.details{
+	background-color: hsl(0deg 0% 13%);
+	color: white;
+    width: 95px;
+    height: 34px;
+    border-radius: 10px;
+}
+form{
+	background-image: url(../img/contact\ us.gif);
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	padding-top: 20px;
+	text-align: center;
+}
+input,textarea{
+	margin-top: 20px;
+	width: 500px;
+	height: 30px;
+	border-radius: 10px;
+}
+.btn-form{
+	background-color: hsl(0deg 0% 13%);
+	color: white;
+    width: 95px;
+    height: 34px;
+    border-radius: 10px;
+	margin-bottom: 10px;
+}
+.anis{
+	background-image: url(../img/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	color: white;
+	text-align: center;
+    padding-top: 100px;
+
+}
+footer{
+	background-image: url(../img/beautiful-color-ui-gradients-backgrounds-virgin-america.png);
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+ color: red;
+}
+	
